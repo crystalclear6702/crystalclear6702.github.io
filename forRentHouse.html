@@ -1,0 +1,498 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>final frontend project</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+#guide{
+  height: 60px;
+  background-color: #00fff9;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  padding-top: 15px;
+}
+.guide{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #777;  
+}
+#guide-divs{
+  text-align: center;
+}
+.glyphicon-arrow-left{
+  font-size: 25px;
+}
+.scrollable-menu{
+  height: auto;
+  max-height: 195px;
+  overflow-x: hidden;
+}
+#lab{
+  text-align: right;
+}
+.footer1{
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #00fff9;
+}
+#footp{
+  text-align: center;
+}
+#footText{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #777;    
+}
+.navbar{
+  background-color: #00fff9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.dropdown-toggle{
+  font-size: 20px;
+}
+body{
+  background-color: #00ffc5;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-NewHome-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="finalFrontEndProject.html">NEW HOMES.ie <span class="glyphicon glyphicon-home"></a>
+    </div>
+
+  <div class="collapse navbar-collapse" id="bs-NewHome-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">For Sale<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forSaleHouse.html">House</a></li>
+                <li><a href="forSaleApartment.html">Apartment</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">To Rent<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forRentHouse.html">House</a></li>
+                <li><a href="forRentApartment.html">Apartment</a></li>
+                <li><a href="forRentStudentAccomodation.html">Student Accomodation</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Share<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forRentRoom.html">Room</a></li>
+                <li><a href="forRentStudentShare.html">Student</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commercial<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Commercial</a></li>
+              </ul>
+    </ul>
+  </div>
+  </div>
+</nav><!--end of nav bar-->
+
+<div id="guide" class="row"><!--start of guide div-->
+  <div class="col-md-2" id="guide-divs">
+  <a href="finalFrontEndProject.html"><span class="glyphicon glyphicon-arrow-left"></a>
+  </div>
+  <div class="col-md-4" id="guide-divs">
+  <p class="guide">House For Rent Form</p>
+  </div>
+  <div class="col-md-6" id="guide-divs">
+  <p class="guide">Total Houses: 2698</p>
+  </div>
+</div><!--end of guide div-->
+
+  <div class="row">
+      <div class="col-md-4"><!--left advert-->
+        <img src="advert3.gif" width="77%" height="80%">
+      </div>
+  
+      <div class="col-md-8"><!--right form-->
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              City or County:
+            </label>
+          </div>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">Dublin City</a></li>
+                      <li><a href="#">Galway city</a></li>
+                      <li><a href="#">Cork City</a></li>
+                      <li><a href="#">Belfast City</a></li>
+                      <li><a href="#">Limerick City</a></li>
+                      <li><a href="#">Waterford City</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Co Antrim</a></li>
+                      <li><a href="#">Co Armagh</a></li>
+                      <li><a href="#">Co Carlow</a></li>
+                      <li><a href="#">Co Cavan</a></li>
+                      <li><a href="#">Co Clare</a></li>
+                      <li><a href="#">Co Cork</a></li>
+                      <li><a href="#">Co Derry</a></li>
+                      <li><a href="#">Co Donegal</a></li>
+                      <li><a href="#">Co Down</a></li>
+                      <li><a href="#">Co Dublin</a></li>
+                      <li><a href="#">Co Fermanagh</a></li>
+                      <li><a href="#">Co Galway</a></li>
+                      <li><a href="#">Co Kerry</a></li>
+                      <li><a href="#">Co Kildare</a></li>
+                      <li><a href="#">Co Kilkenny</a></li>
+                      <li><a href="#">Co Laois</a></li>
+                      <li><a href="#">Co Leitrim</a></li>
+                      <li><a href="#">Co Limerick</a></li>
+                      <li><a href="#">Co Longford</a></li>
+                      <li><a href="#">Co Louth</a></li>
+                      <li><a href="#">Co Mayo</a></li>
+                      <li><a href="#">Co Meath</a></li>
+                      <li><a href="#">Co Monaghan</a></li>
+                      <li><a href="#">Co Offaly</a></li>
+                      <li><a href="#">Co Roscommon</a></li>
+                      <li><a href="#">Co Sligo</a></li>
+                      <li><a href="#">Co Tipperary</a></li>
+                      <li><a href="#">Co Tyrone</a></li>
+                      <li><a href="#">Co Waterford</a></li>
+                      <li><a href="#">Co Westmeath</a></li>
+                      <li><a href="#">Co Wexford</a></li>
+                      <li><a href"#">Co Wicklow</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="City or County">
+          </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Area:
+            </label>
+          </div>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">Annagassan</a></li>
+                      <li><a href="#">Ardee</a></li>
+                      <li><a href="#">Blackrock</a></li>
+                      <li><a href="#">Carlingford</a></li>
+                      <li><a href="#">Castlebellingham</a></li>
+                      <li><a href="#">Chanonrock</a></li>
+                      <li><a href="#">Clogherhead</a></li>
+                      <li><a href="#">Collon</a></li>
+                      <li><a href="#">Drogheda</a></li>
+                      <li><a href="#">Dromiskin</a></li>
+                      <li><a href="#">Dundalk</a></li>
+                      <li><a href="#">Dunleer</a></li>
+                      <li><a href="#">Faughart</a></li>
+                      <li><a href="#">Grange</a></li>
+                      <li><a href="#">Grangebellew</a></li>
+                      <li><a href="#">Greenore</a></li>
+                      <li><a href="#">Jenkinstown</a></li>
+                      <li><a href="#">Kilcurly</a></li>
+                      <li><a href="#">Kilcurry</a></li>
+                      <li><a href="#">Kilsaran</a></li>
+                      <li><a href="#">Knockbridge</a></li>
+                      <li><a href="#">Louth</a></li>
+                      <li><a href="#">Monasterboice</a></li>
+                      <li><a href="#">Omeath</a></li>
+                      <li><a href="#">Ravensdale</a></li>
+                      <li><a href="#">Stabannan</a></li>
+                      <li><a href="#">Tallanstown</a></li>
+                      <li><a href="#">Tenure</a></li>
+                      <li><a href="#">Termonfeckin</a></li>
+                      <li><a href="#">The Bush</a></li>
+                      <li><a href="#">Togher</a></li>
+                      <li><a href="#">Tullyallen</a></li>
+                      <li><a href="#">Whites Town</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="Area">
+          </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Number of bedrooms:
+            </label>
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">1 bedroom</a></li>
+                      <li><a href="#">2 bedrooms</a></li>
+                      <li><a href="#">3 bedrooms</a></li>
+                      <li><a href="#">4 bedrooms</a></li>
+                      <li><a href="#">5 bedrooms</a></li>
+                      <li><a href="#">6 bedrooms</a></li>
+                      <li><a href="#">7 bedrooms</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Max">
+            </div><!-- /input-group -->
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">1 bedroom</a></li>
+                      <li><a href="#">2 bedrooms</a></li>
+                      <li><a href="#">3 bedrooms</a></li>
+                      <li><a href="#">4 bedrooms</a></li>
+                      <li><a href="#">5 bedrooms</a></li>
+                      <li><a href="#">6 bedrooms</a></li>
+                      <li><a href="#">7 bedrooms</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Min">
+            </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Number of bathrooms:
+            </label>
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">1 bathroom</a></li>
+                      <li><a href="#">2 bathrooms</a></li>
+                      <li><a href="#">3 bathrooms</a></li>
+                      <li><a href="#">4 bathrooms</a></li>
+                      <li><a href="#">5 bathrooms</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Max">
+            </div><!-- /input-group -->
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">1 bathroom</a></li>
+                      <li><a href="#">2 bathrooms</a></li>
+                      <li><a href="#">3 bathrooms</a></li>
+                      <li><a href="#">4 bathrooms</a></li>
+                      <li><a href="#">5 bathrooms</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Min">
+            </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Rent:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <label>
+              Weekly:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+          <div class="col-md-1">
+            <label>
+              Monthly:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">é100</a></li>
+                      <li><a href="#">é200</a></li>
+                      <li><a href="#">é300</a></li>
+                      <li><a href="#">é400</a></li>
+                      <li><a href="#">é500</a></li>
+                      <li><a href="#">é600</a></li>
+                      <li><a href="#">é700</a></li>
+                      <li><a href="#">é800</a></li>
+                      <li><a href="#">é900</a></li>
+                      <li><a href="#">é1,000</a></li>
+                      <li><a href="#">é1,250</a></li>
+                      <li><a href="#">é1,500</a></li>
+                      <li><a href="#">é1,750</a></li>
+                      <li><a href="#">é2,000</a></li>
+                      <li><a href="#">é2,250</a></li>
+                      <li><a href="#">é2,500</a></li>
+                      <li><a href="#">é2,750</a></li>
+                      <li><a href="#">é3,000</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Max">
+            </div><!-- /input-group -->
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">é100</a></li>
+                      <li><a href="#">é200</a></li>
+                      <li><a href="#">é300</a></li>
+                      <li><a href="#">é400</a></li>
+                      <li><a href="#">é500</a></li>
+                      <li><a href="#">é600</a></li>
+                      <li><a href="#">é700</a></li>
+                      <li><a href="#">é800</a></li>
+                      <li><a href="#">é900</a></li>
+                      <li><a href="#">é1,000</a></li>
+                      <li><a href="#">é1,250</a></li>
+                      <li><a href="#">é1,500</a></li>
+                      <li><a href="#">é1,750</a></li>
+                      <li><a href="#">é2,000</a></li>
+                      <li><a href="#">é2,250</a></li>
+                      <li><a href="#">é2,500</a></li>
+                      <li><a href="#">é2,750</a></li>
+                      <li><a href="#">é3,000</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Min">
+            </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Added in Last:
+            </label>
+          </div>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">At any time</a></li>
+                      <li><a href="#">24 Hours</a></li>
+                      <li><a href="#">3 Days</a></li>
+                      <li><a href="#">7 Days</a></li>
+                      <li><a href="#">14 Days</a></li>
+                      <li><a href="#">30 Days</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="At any time">
+          </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class+"row">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
+            <ul class="nav nav-pills">
+              <li role="presentation" class="active"><a href="#">Submit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  <footer class="footer1">
+    <div class="row">
+      <div class="col-md-4" id="footp">
+        <a href="about.html" id="footText">ABOUT</a>
+      </div>
+        <div class="col-md-4" id="footp">
+      <a href="contact.html" id="footText">CONTACT</a>
+        </div>
+      <div class="col-md-4" id="footp">
+        <a href="termsOfUse.html" id="footText">TERMS OF USE</a>
+      </div>
+    </div>
+  </footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

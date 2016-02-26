@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>final frontend project</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+#guide{
+  height: 60px;
+  background-color: #00fff9;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  padding-top: 15px;
+}
+.guide{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #777;  
+}
+#guide-divs{
+  text-align: center;
+}
+.glyphicon-arrow-left{
+  font-size: 25px;
+}
+.scrollable-menu{
+  height: auto;
+  max-height: 195px;
+  overflow-x: hidden;
+}
+#lab{
+  text-align: right;
+}
+.footer1{
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #00fff9;
+}
+#footp{
+  text-align: center;
+}
+#footText{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #777;    
+}
+.navbar{
+  background-color: #00fff9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.dropdown-toggle{
+  font-size: 20px;
+}
+body{
+  background-color: #00ffc5;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-NewHome-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="finalFrontEndProject.html">NEW HOMES.ie <span class="glyphicon glyphicon-home"></a>
+    </div>
+
+  <div class="collapse navbar-collapse" id="bs-NewHome-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">For Sale<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forSaleHouse.html">House</a></li>
+                <li><a href="forSaleApartment.html">Apartment</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">To Rent<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forRentHouse.html">House</a></li>
+                <li><a href="forRentApartment.html">Apartment</a></li>
+                <li><a href="forRentStudentAccomodation.html">Student Accomodation</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Share<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forRentRoom.html">Room</a></li>
+                <li><a href="forRentStudentShare.html">Student</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commercial<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Commercial</a></li>
+              </ul>
+    </ul>
+  </div>
+  </div>
+</nav><!--end of nav bar-->
+
+<div id="guide" class="row"><!--start of guide div-->
+  <div class="col-md-2" id="guide-divs">
+  <a href="finalFrontEndProject.html"><span class="glyphicon glyphicon-arrow-left"></a>
+  </div>
+  <div class="col-md-4" id="guide-divs">
+  <p class="guide">Student Accomodation For Rent Form</p>
+  </div>
+  <div class="col-md-6" id="guide-divs">
+  <p class="guide">Total Available: 3178</p>
+  </div>
+</div><!--end of guide div-->
+
+  <div class="row">
+      <div class="col-md-4"><!--left advert-->
+        <img src="advert3.gif" width="77%" height="80%">
+      </div>
+  
+      <div class="col-md-8"><!--right form-->
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              College:
+            </label>
+          </div>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">Select Your College</a></li>
+                      <li><a href="#">All Hallows College</a></li>
+                      <li><a href="#">American College Dublin</a></li>
+                      <li><a href="#">Athlone Institute Of Technology</a></li>
+                      <li><a href="#">Ballyfermot College Of Further Education</a></li>
+                      <li><a href="#">Burren College Of Art</a></li>
+                      <li><a href="#">Carlow College</a></li>
+                      <li><a href="#">Carlow Institute Of Technology</a></li>
+                      <li><a href="#">Church Of Ireland College Of Eduucation</a></li>
+                      <li><a href="#">College Of Computing Technology</a></li>
+                      <li><a href="#">Cork College Of Commerce</a></li>
+                      <li><a href="#">Cork Institute Of Technology</a></li>
+                      <li><a href="#">Cork School Of Music</a></li>
+                      <li><a href="#">Crawford College Of Art & Design</a></li>
+                      <li><a href="#">DIT Aungier Street</a></li>
+                      <li><a href="#">DIT Bolton Street</a></li>
+                      <li><a href="#">DIT Cathal Brugha Street</a></li>
+                      <li><a href="#">DIT Grangegorman</a></li>
+                      <li><a href="#">DIT Kevin Street</a></li>
+                      <li><a href="#">DIT Rathmines Road</a></li>
+                      <li><a href="#">Dorset College</a></li>
+                      <li><a href="#">Dublin Buisness School</a></li>
+                      <li><a href="#">Dublin City University</a></li>
+                      <li><a href="#">Dublin Institute Of Design</a></li>
+                      <li><a href="#">Dun Laoghaire Institute Of Art, Design & Technology</a></li>
+                      <li><a href="#">Dundalk Institute Of Technology</a></li>
+                      <li><a href="#">Galway-Mayo Institute Of Technology</a></li>
+                      <li><a href="#">Grafton College Of Managment Sciences</a></li>
+                      <li><a href="#">Griffith College Dublin</a></li>
+                      <li><a href="#">IBAT College Dublin-Swords Campus</a></li>
+                      <li><a href="#">IBAT College Dublin-Temple Bar Campus</a></li>
+                      <li><a href"#">ICD Buisness School</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="college">
+          </div><!-- /input-group -->
+          </div>
+        </div>
+  
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Type of accomodation:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <label>
+            Single:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+          <div class="col-md-1">
+            <label>
+              Share:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Will only share with:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <label>
+              Male:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+          <div class="col-md-1">
+            <label>
+              Female:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Rent:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <label>
+              Weekly:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+          <div class="col-md-1">
+            <label>
+              Monthly:
+            </label>
+          </div>
+          <div class="col-md-1">
+            <input type="radio" aria-label="...">
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">é50</a></li>
+                      <li><a href="#">é100</a></li>
+                      <li><a href="#">é150</a></li>
+                      <li><a href="#">é200</a></li>
+                      <li><a href="#">é250</a></li>
+                      <li><a href="#">é300</a></li>
+                      <li><a href="#">é400</a></li>
+                      <li><a href="#">é500</a></li>
+                      <li><a href="#">é600</a></li>
+                      <li><a href="#">é700</a></li>
+                      <li><a href="#">é800</a></li>
+                      <li><a href="#">é900</a></li>
+                      <li><a href="#">é1,000</a></li>
+                      <li><a href="#">é1,250</a></li>
+                      <li><a href="#">é1,500</a></li>
+                      <li><a href="#">é1,750</a></li>
+                      <li><a href="#">é2,000</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Max">
+            </div><!-- /input-group -->
+          </div>
+          <div class="col-md-2">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="dropdownMenu1" role="menu">
+                      <li><a href="#">é50</a></li>
+                      <li><a href="#">é100</a></li>
+                      <li><a href="#">é150</a></li>
+                      <li><a href="#">é200</a></li>
+                      <li><a href="#">é250</a></li>
+                      <li><a href="#">é300</a></li>
+                      <li><a href="#">é400</a></li>
+                      <li><a href="#">é500</a></li>
+                      <li><a href="#">é600</a></li>
+                      <li><a href="#">é700</a></li>
+                      <li><a href="#">é800</a></li>
+                      <li><a href="#">é900</a></li>
+                      <li><a href="#">é1,000</a></li>
+                      <li><a href="#">é1,250</a></li>
+                      <li><a href="#">é1,500</a></li>
+                      <li><a href="#">é1,750</a></li>
+                      <li><a href="#">é2,000</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="No Min">
+            </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4" id="lab">
+            <label>
+              Added in Last:
+            </label>
+          </div>
+          <div class="col-md-4">
+            <div class="input-group">
+              <span class="input-group-btn">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <span class="caret"></span>
+                  </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">At any time</a></li>
+                      <li><a href="#">24 Hours</a></li>
+                      <li><a href="#">3 Days</a></li>
+                      <li><a href="#">7 Days</a></li>
+                      <li><a href="#">14 Days</a></li>
+                      <li><a href="#">30 Days</a></li>
+                    </ul>
+                  </span>
+              <input type="text" class="form-control" placeholder="At any time">
+          </div><!-- /input-group -->
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-8" style="height: 35px"></div>
+        </div>
+
+        <div class+"row">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4">
+            <ul class="nav nav-pills">
+              <li role="presentation" class="active"><a href="#">Submit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  <footer class="footer1">
+    <div class="row">
+      <div class="col-md-4" id="footp">
+        <a href="about.html" id="footText">ABOUT</a>
+      </div>
+        <div class="col-md-4" id="footp">
+      <a href="contact.html" id="footText">CONTACT</a>
+        </div>
+      <div class="col-md-4" id="footp">
+        <a href="termsOfUse.html" id="footText">TERMS OF USE</a>
+      </div>
+    </div>
+  </footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

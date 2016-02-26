@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>final frontend project</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+#guide{
+  height: 60px;
+  background-color: #00fff9;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  padding-top: 15px;
+}
+.guide{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #777;  
+}
+#guide-divs{
+  text-align: center;
+}
+.glyphicon-arrow-left{
+  font-size: 25px;
+}
+#carim{
+  height: 350px;
+  margin: auto;
+}
+#advert-left{
+  height: 1000px;
+}
+#myCarousel{
+  height: 350px;
+}
+.footer1{
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #00fff9;
+}
+#footp{
+  text-align: center;
+}
+#footText{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #777;    
+}
+.navbar{
+  background-color: #00fff9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navbar-brand{
+  font-size: 30px;
+}
+.dropdown-toggle{
+  font-size: 20px;
+}
+.glyphicon-euro{
+  font-size: 14px;
+}
+body{
+  background-color: #00ffc5;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-NewHome-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <a class="navbar-brand" href="finalFrontEndProject.html">NEW HOMES.ie <span class="glyphicon glyphicon-home"></a>
+    </div>
+
+  <div class="collapse navbar-collapse" id="bs-NewHome-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">For Sale<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forSaleHouse.html">House</a></li>
+                <li><a href="forSaleApartment.html">Apartment</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">To Rent<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forRentHouse.html">House</a></li>
+                <li><a href="forRentApartment.html">Apartment</a></li>
+                <li><a href="forRentStudentAccomodation.html">Student Accomodation</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Share<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="forRentRoom.html">Room</a></li>
+                <li><a href="forRentStudentShare.html">Student</a></li>
+              </ul>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commercial<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Commercial</a></li>
+              </ul>
+    </ul>
+  </div>
+  </div>
+</nav><!--end of nav bar-->
+
+<div id="guide" class="row"><!--start of guide div-->
+  <div class="col-md-2" id="guide-divs">
+  <a href="forSaleHouseDisplayResults.html"><span class="glyphicon glyphicon-arrow-left"></a>
+  </div>
+  <div class="col-md-4" id="guide-divs">
+  <p class="guide">House For Sale Results</p>
+  </div>
+  <div class="col-md-6" id="guide-divs">
+  <p class="guide">Co Louth:       Drogheda:      Park Drive Grangerath</p>
+  </div>
+</div><!--end of guide div-->
+
+	<div class="row"><!--start of left and right columns-->
+  	  <div class="col-md-4" id="advert-left"><!--left column and advert-->
+  			<img src="advert.gif" width="77%" height="80%">
+  		</div>
+  		  <div class="col-md-8"><!--start of right column-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel"><!--start of carousel-->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <a href="houseADetail.html"><img src="final proj/houseA.jpg" alt="house1" id="carim" class="image-responsive"></a>
+              </div>
+              <div class="item">
+                <img src="final proj/houseAHallway.jpg" alt="house2" id="carim" class="image-responsive">
+              </div>
+              <div class="item">
+                <img src="final proj/houseABedroom.jpg" alt="house3" id="carim" class="image-responsive">
+              </div>
+              <div class="item">
+                <img src="final proj/houseAKitchen.jpg" alt="house3" id="carim" class="image-responsive">
+              </div>
+              <div class="item">
+                <img src="final proj/houseAToilet.jpg" alt="house4" id="carim" class="image-responsive">
+              </div>
+              <div class="item">
+                <img src="final proj/houseABackGarden.jpg" alt="house5" id="carim" class="image-responsive">
+              </div>
+            </div>
+            <a class="carousel-control" href="myCarousel" data-slide="prev"></a>
+          </div><!--end of carousel-->
+          <div class="col-md-1"><!--left margin of right column-->
+          </div>
+          <div class="col-md-6"><!--start of text container-->
+            <p class="h2">
+            OVERVIEW
+            </p>
+            <p class="h4">
+            Property Overview
+            </p>
+            <p>
+            For sale by private treaty
+            </p>
+            <p class="h4">
+            Price <span class="glyphicon glyphicon-euro"></span>370,000
+            </p>
+            <p class="h4">
+            Overall floor area
+            </p>
+            <p>
+            167.2 Sq. Metres (1,800 Sq. Feet)
+            </p>
+            <p class="h4">
+            Property description
+            </p>
+            <p>
+            TormeyLee have the pleasure in bringing this beautiful five bedroom family home to the market. The property consists of five bedrooms, master ensuite, lounge,living room, kitchen, dining room, utility room,guest WC and family bathroom. Located on c.75 of an acre there is a large rear garden with mature trees, a cobble lock patio area and a large garden shed. Positioned to the side of the property is a garage with a car port and a floored attic storage space. This house is in beautiful decorative order with solid wood, tiled, and top quality carpet flooring throughout. The kitchen has an oil fired Rayburn cooker which supplies heating and hot water,terracotta tiled floor and comfortable window seat. The three reception rooms area spacious, one with marble fireplace and gas fire and another with patio doors to the garden. There are smoke alarms and a newly fitted house alarm. Tinure is a small village within close proximity of the M1 Motorway. Located just a thirty five minute drive to Dublin Airport , ten minutes to Drogheda Town Centre, and 20 mins north to Dundalk this location could not be more accessible. This property has it all, viewing is highly recommended. Call today to avoid disappointment.
+            </p>
+            <p class="h4">
+              <ul>
+                <li>Entrance Hallway: 2 x 6.5</li>
+                <li>Guest WC: 1.8 x 1.9</li>
+                <li>Sitting Room : 4.3 x 4.5</li>
+                <li>Dining Room : 4.5 x 4.2</li>
+                <li>Kitchen/Dining Room:</li>
+                <li>Utility:</li>
+                <li>Lounge : 4.3 x 4.3</li>
+                <li>Landing: 4 x 4.6</li>
+                <li>Master Bedroom: 4.6 x 4.8</li>
+                <li>Master Ensuite: 1 x 2.7</li>
+                <li>Bedroom 2: 4 x 3.7</li>
+                <li>Bedroom 3: 3.9 x 4.4</li>
+                <li>Bedroom 4: 3.3 x 4.3</li>
+                <li>Bedroom 5: 2.3 x 2.9</li>
+                <li>Family Bathroom : 2.2 x 2.3</li>
+              </ul>
+            </p>
+            <p class="h4">
+            Features:
+            </p>
+            <p class="h4">
+              <ol>
+                <li>Well maintained large mature rear garden</li>
+                <li>Spacious accommodation</li>
+                <li>Located on c.75 of an acre</li>
+                <li>Double glazed windows</li>
+                <li>Garage with car port and a floored first floor store room</li>
+                <li>Beautiful decorative condition</li>
+                <li>Newly fitted alarm</li>
+                <li>Surround sound on ground level</li>
+                <li>Powered water system</li>
+              </ol>
+            </p>
+            <p class="h4">
+            Facilities:
+            </p>
+            <p class="h4">
+              <ul>
+                <li>Parking</li>
+                <li>Wired for Cable Television</li>
+                <li>Alarm</li>
+                <li>Oil Fired Central Heating</li>
+              </ul>
+            </p>
+            <p class="h4">
+            BER Rating:
+            </p>
+            <p>
+            BER C1
+            </p>
+            <p class="h4">
+            New Home Property Shortcode:
+            </p>
+            <p>
+            <a href="http://www.daft.ie/11183134">http://www.daft.ie/11183134</a>
+            </p>
+          </div><!--end of text container-->
+          <div class="col-md-1"><!--right margin of right column-->
+          </div>
+        </div>
+	</div>
+  
+  <footer class="footer1">
+  	<div class="row">
+      <div class="col-md-4" id="footp">
+  		  <a href="about.html" id="footText">ABOUT</a>
+      </div>
+        <div class="col-md-4" id="footp">
+  		<a href="contact.html" id="footText">CONTACT</a>
+        </div>
+      <div class="col-md-4" id="footp">
+  		  <a href="termsOfUse.html" id="footText">TERMS OF USE</a>
+      </div>
+  	</div>
+  </footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
